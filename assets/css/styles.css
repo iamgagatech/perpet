@@ -1,0 +1,103 @@
+.navbar {
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  box-shadow: 1px 0px 11px 1px rgb(51,171,201);
+}
+
+.navbar-toggler {
+  border-style: none;
+}
+
+.icon.ion-android-menu {
+  font-size: 45px;
+  color: rgba(255,255,255,0.81);
+}
+
+.fynitem {
+  font-size: 21px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  --bs-body-font-weight: normal;
+}
+
+#n1 .activenavlink.active {
+  box-shadow: 1px 1px 2px 0px rgba(161,216,230,0.91);
+}
+
+#n2 .activenavlink.active {
+  box-shadow: 1px 1px 2px 0px rgba(161,216,230,0.91);
+}
+
+#n3 .activenavlink.active {
+  box-shadow: 1px 1px 2px 0px rgba(161,216,230,0.91);
+}
+
+.caroLittleText {
+  text-shadow: 1px 2px rgb(0,0,0);
+  color: rgb(255,168,0);
+  font-size: 27px;
+  line-height: 32.5px;
+  letter-spacing: -1px;
+  font-family: Courgette, serif;
+}
+
+.hdCaro {
+  color: rgb(43,197,213);
+  text-shadow: -4px 3px 4px rgb(0,0,0);
+  max-width: 913px;
+  font-size: 39.4px;
+  text-align: left;
+  filter: brightness(136%);
+}
+
+@media (min-width: 768px) {
+  .caroLittleText {
+    font-size: 36px;
+  }
+}
+
+.btttn {
+  font-family: 'Akaya Kanadaka', serif;
+  box-shadow: -4px 5px 1px;
+}
+
+@media (max-width: 991px) {
+  .btttn:active {
+    transition: ease-in-out 0.2s;
+    transform: translateX(-2px) translateY(-5px) rotate(0deg) scale(1.03);
+    box-shadow: -1px -1px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btttn:hover {
+    box-shadow: 0px 0px;
+    transform: rotate(10deg) scale(1.05);
+    transition: ease-in-out 0.5s;
+  }
+}
+
+@media (min-width: 992px) {
+  .divBalancingBGS {
+    margin-left: 70px;
+  }
+}
+
+.carousel-control-prevBthsides {
+  max-width: 84px;
+  min-width: 4px;
+}
+
+.caroSlideThreeLittleText {
+  text-shadow: -1px 1px 4px rgba(58,255,255,0.73);
+}
+
+@media (max-width: 570px) {
+  .alertForInventory {
+    display: none;
+  }
+}
+
+.divSearchBttn {
+}
+
