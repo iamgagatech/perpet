@@ -59,6 +59,8 @@
 .btttn {
   font-family: 'Akaya Kanadaka', serif;
   box-shadow: -4px 5px 1px;
+  --bs-warning-rgb: 7,5,0;
+  --bs-warning: #070500;
 }
 
 @media (max-width: 991px) {
