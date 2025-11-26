@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md sticky-top bg-body bg-opacity-75" data-bs-theme="dark" style="padding-bottom: 0px;">
+    <nav class="navbar navbar-expand-md sticky-top bg-body bg-opacity-75" style="padding-bottom: 0px;" data-bs-theme="dark">
         <div class="container"><a class="navbar-brand swing animated" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" href="/" title="Go To Home Page"><img class="img-fluid" src="assets/img/perpet_carLogo.png" width="64" height="64" alt="perpet Logo"><strong>PERPET</strong></a>
             <div></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><i class="icon ion-android-menu"></i></button>
             <div class="collapse navbar-collapse flash animated" id="navcol-1">
@@ -30,6 +30,9 @@
         </div>
     </nav>
     <main>
+        <div id="loading" class="hidden">
+            <div class="d-flex d-xxl-flex justify-content-center align-items-center justify-content-xxl-center" style="width: 100%;height: 100vh;position: absolute;"><img class="img-fluid" id="loader" src="assets/img/Loading.gif"></div>
+        </div>
         <div class="carousel slide carousel-fade pulse animated" data-bs-ride="carousel" id="carousel-1" style="height: 600px;margin-top: -88px;">
             <div class="carousel-inner h-100">
                 <div class="carousel-item active h-100"><img class="img-fluid w-100 d-block position-absolute h-100 fit-cover" src="assets/img/lexus%20car%20hero.jpg" alt="Lexus Car slider" style="z-index: -1;filter: brightness(100%);">
@@ -74,9 +77,6 @@
             <div class="carousel-indicators"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button></div>
         </div>
     </main>
-    <div id="loading" class="hidden">
-        <div class="d-flex d-xxl-flex justify-content-center align-items-center justify-content-xxl-center" style="width: 100%;height: 100vh;position: absolute;"><img class="img-fluid" id="loader" src="assets/img/Loading.gif"></div>
-    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Loading-Page-Animation-loading-animation-load.js"></script>

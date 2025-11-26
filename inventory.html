@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md sticky-top bg-body bg-opacity-75" data-bs-theme="dark" style="padding-bottom: 0px;">
+    <nav class="navbar navbar-expand-md sticky-top bg-body bg-opacity-75" style="padding-bottom: 0px;" data-bs-theme="dark">
         <div class="container"><a class="navbar-brand swing animated" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="right" href="/" title="Go To Home Page"><img class="img-fluid" src="assets/img/perpet_carLogo.png" width="64" height="64" alt="perpet Logo"><strong>PERPET</strong></a>
             <div></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><i class="icon ion-android-menu"></i></button>
             <div class="collapse navbar-collapse flash animated" id="navcol-1">
@@ -30,6 +30,9 @@
             </div>
         </div>
     </nav>
+    <div id="loading" class="hidden">
+        <div class="d-flex d-xxl-flex justify-content-center align-items-center justify-content-xxl-center" style="width: 100%;height: 100vh;position: absolute;"><img class="img-fluid" id="loader" src="assets/img/Loading.gif"></div>
+    </div>
     <div class="alert alert-warning alert-dismissible alertForInventory" role="alert"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="alert"></button><span class="text-center d-flex justify-content-center"><strong>Click/Hover </strong>&nbsp; an image or text to get more Information!!</span></div>
     <div class="container-md" style="padding-top: 1px;margin-top: 17px;">
         <div data-reflow-type="product-list" data-reflow-addtocart-text="More Info" data-reflow-shoppingcart-url="cart.html" data-reflow-layout="cards" data-reflow-order="date_desc"></div>
