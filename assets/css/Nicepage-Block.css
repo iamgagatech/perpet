@@ -1,0 +1,85 @@
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active, a:hover {
+  outline-width: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.u-link, a {
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body, aside, .u-sidebar-block, section, header, footer {
+  position: relative;
+}
+
+section > *, header > *, footer > *, .u-sheet > *, .u-section-row > * {
+  position: relative;
+}
+
+a {
+  color: #259bca;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0676a4;
+}
+
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: inherit;
+}
+
+p {
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat,sans-serif;
+}
+
+p:not(.u-text-variant) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a, .u-gradient > .u-container-layout > a, .u-image:not(.u-shading) > .u-container-layout > a, a {
+  color: #478ac9;
+}
+
+.u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a:hover, .u-gradient > .u-container-layout > a:hover, .u-image:not(.u-shading) > .u-container-layout > a:hover, a:hover {
+  color: #387cbd;
+}
+
