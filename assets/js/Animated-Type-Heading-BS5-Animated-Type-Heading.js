@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-    var animationDelay = 2500,
+    var animationDelay = 1500,
         barAnimationDelay = 3800,
         barWaiting = barAnimationDelay - 3e3,
         lettersDelay = 50,

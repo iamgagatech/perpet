@@ -76,18 +76,6 @@
   color: #007BB6;
 }
 
-#myFooter .btn {
-  color: white;
-  background-color: #d84b6b;
-  border-radius: 20px;
-  border: none;
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  line-height: 25px;
-}
-
 @media screen and (max-width: 767px) {
   #myFooter {
     text-align: center;
