@@ -208,3 +208,28 @@
   scroll-margin-top: 105px;
 }
 
+@media (max-width: 768px) {
+  .brandHeadingtab {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .brandHeadingphone {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 375px) {
+  .brandHeadingphoness {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 375px) {
+  .brandLogoHeading {
+    width: 50px;
+    height: 51px;
+  }
+}
+
